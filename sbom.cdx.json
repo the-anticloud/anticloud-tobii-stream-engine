@@ -1,0 +1,81 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:b85659d4-b039-55c2-abd1-3af4f41e4017",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-12T06:26:41Z",
+    "component": {
+      "type": "application",
+      "name": "TOBII_STREAM_ENGINE",
+      "version": "b1e5acce8dea",
+      "bom-ref": "pkg:generic/anticloud/TOBII_STREAM_ENGINE@b1e5acce8dea",
+      "purl": "pkg:generic/anticloud/TOBII_STREAM_ENGINE@b1e5acce8dea",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "b1e5acce8deab509690bb9ae0a2ce514e26c3766"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": ""
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "name",
+      "version": "tobii-sys",
+      "purl": "pkg:cargo/name@tobii-sys",
+      "bom-ref": "cargo/name@tobii-sys"
+    },
+    {
+      "type": "library",
+      "name": "version",
+      "version": "0.2.0",
+      "purl": "pkg:cargo/version@0.2.0",
+      "bom-ref": "cargo/version@0.2.0"
+    },
+    {
+      "type": "library",
+      "name": "license",
+      "version": "MIT",
+      "purl": "pkg:cargo/license@MIT",
+      "bom-ref": "cargo/license@MIT"
+    },
+    {
+      "type": "library",
+      "name": "build",
+      "version": "build.rs",
+      "purl": "pkg:cargo/build@build.rs",
+      "bom-ref": "cargo/build@build.rs"
+    },
+    {
+      "type": "library",
+      "name": "repository",
+      "version": "https://github.com/trishume/tobii-sys",
+      "purl": "pkg:cargo/repository@https://github.com/trishume/tobii-sys",
+      "bom-ref": "cargo/repository@https://github.com/trishume/tobii-sys"
+    },
+    {
+      "type": "library",
+      "name": "documentation",
+      "version": "https://docs.rs/tobii-sys",
+      "purl": "pkg:cargo/documentation@https://docs.rs/tobii-sys",
+      "bom-ref": "cargo/documentation@https://docs.rs/tobii-sys"
+    }
+  ]
+}
